@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "current_profile_name": "default",
+  "repos": [
+    {
+      "type": "git",
+      "path": "github.com/vim-airline/vim-airline",
+      "version": "4cc255a3849c15484f7da5b5039d73f1a567a7e2"
+    },
+    {
+      "type": "git",
+      "path": "github.com/scrooloose/nerdtree",
+      "version": "d6032c876c6d6932ab7f07e262a16c9a85a31d5b"
+    },
+    {
+      "type": "git",
+      "path": "github.com/airblade/vim-gitgutter",
+      "version": "6076c9678643a8b2fc9973f16ec9efcd5dbe1aca"
+    },
+    {
+      "type": "git",
+      "path": "github.com/raichoo/purescript-vim",
+      "version": "ab8547cef5827f046d43ba57203acb6692b7ef06"
+    },
+    {
+      "type": "git",
+      "path": "github.com/FrigoEU/psc-ide-vim",
+      "version": "6d4a3cc27e9782b703f6dd61ef5fdf27054bac0f"
+    }
+  ],
+  "profiles": [
+    {
+      "name": "default",
+      "repos_path": [
+        "github.com/vim-airline/vim-airline",
+        "github.com/scrooloose/nerdtree",
+        "github.com/airblade/vim-gitgutter",
+        "github.com/raichoo/purescript-vim",
+        "github.com/FrigoEU/psc-ide-vim"
+      ]
+    }
+  ]
+}
