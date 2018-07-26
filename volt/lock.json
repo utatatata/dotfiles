@@ -5,7 +5,7 @@
     {
       "type": "git",
       "path": "github.com/vim-airline/vim-airline",
-      "version": "4cc255a3849c15484f7da5b5039d73f1a567a7e2"
+      "version": "59f3669a42728406da6d1b948608cae120d1453f"
     },
     {
       "type": "git",
@@ -19,7 +19,7 @@
     },
     {
       "type": "git",
-      "path": "github.com/raichoo/purescript-vim",
+      "path": "github.com/purescript-contrib/purescript-vim",
       "version": "ab8547cef5827f046d43ba57203acb6692b7ef06"
     },
     {
@@ -35,7 +35,7 @@
         "github.com/vim-airline/vim-airline",
         "github.com/scrooloose/nerdtree",
         "github.com/airblade/vim-gitgutter",
-        "github.com/raichoo/purescript-vim",
+        "github.com/purescript-contrib/purescript-vim",
         "github.com/FrigoEU/psc-ide-vim"
       ]
     }

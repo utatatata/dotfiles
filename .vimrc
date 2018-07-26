@@ -4,10 +4,9 @@ filetype off
 filetype plugin indent off
 "}}}
 
-"basic configurations"{{{
-
-"fold
+"fold"{{{
 au FileType vim setlocal foldmethod=marker
+"}}}
 
 "swap, backup, undo, info"{{{
 set directory=~/.vim/swap
@@ -73,21 +72,6 @@ set history=10000
 set visualbell t_vb=
 set noerrorbells
 "}}}
-
-"}}}basic configurations
-
-"plugin configurations"{{{
-
-"NerdTree"{{{
-map <C-n> :NERDTreeToggle<CR>
-"}}}
-
-"PSC-IDE"{{{
-helptags ~/volt/repos/github.com/frigoeu/psc-ide-vim/doc
-let g:psc_ide_syntastic_mode = 1
-"}}}
-
-"}}}plugin configurations
 
 "End of the file"{{{
 filetype on

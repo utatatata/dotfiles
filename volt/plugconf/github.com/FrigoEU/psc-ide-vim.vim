@@ -1,6 +1,8 @@
 function! s:on_load_pre()
   " Plugin configuration like the code written in vimrc.
   " This configuration is executed *before* a plugin is loaded.
+
+  helptags ~/volt/repos/github.com/FrigoEU/psc-ide-vim/doc
 endfunction
 
 function! s:on_load_post()
@@ -20,7 +22,7 @@ function! s:loaded_on()
   " This function must contain 'return "<str>"' code.
   " (the argument of :return must be string literal)
 
-  return 'start'
+  return 'filetype=purescript'
 endfunction
 
 function! s:depends()
@@ -31,5 +33,5 @@ function! s:depends()
   " (the argument of :return must be list literal, and the elements are string)
   " e.g. return ['github.com/tyru/open-browser.vim']
 
-  return []
+  return ['github.com/FrigoEU/psc-ide-vim']
 endfunction

@@ -20,7 +20,7 @@ function! s:loaded_on()
   " This function must contain 'return "<str>"' code.
   " (the argument of :return must be string literal)
 
-  return 'start'
+  return 'filetype=purescript'
 endfunction
 
 function! s:depends()
