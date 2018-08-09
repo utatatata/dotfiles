@@ -25,6 +25,9 @@ repo = 'scrooloose/nerdtree'
 [[plugins]]
 repo = 'cohama/lexima.vim'
 
+[[plugins]]
+repo = 'w0rp/ale'
+
 
 # Status bar
 [[plugins]]
