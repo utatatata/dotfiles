@@ -3,9 +3,9 @@
 repo = 'Shougo/dein.vim'
 
 
-# Theme
+# ColorSchemes
 [[plugins]]
-repo = 'tomasr/molokai'
+repo = 'flazz/vim-colorschemes'
 
 
 # Display
