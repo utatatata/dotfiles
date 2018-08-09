@@ -3,18 +3,39 @@
 repo = 'Shougo/dein.vim'
 
 
+# Theme
+[[plugins]]
+repo = 'tomasr/molokai'
+
+
+# Display
+[[plugins]]
+repo = 'Yggdroot/indentLine'
+
+[[plugins]]
+repo = 'bronson/vim-trailing-whitespace'
+
+
 # Filer
 [[plugins]]
 repo = 'scrooloose/nerdtree'
 
 
-# Git
+# Utility
 [[plugins]]
-repo = 'vim-airline/vim-airline'
+repo = 'cohama/lexima.vim'
+
+
+# Status bar
+[[plugins]]
+repo    = 'vim-airline/vim-airline'
 depends = ['vim-airline-themes']
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
 
+
+# Git
 [[plugins]]
 repo = 'airblade/vim-gitgutter'
+
