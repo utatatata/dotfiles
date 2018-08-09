@@ -6,6 +6,11 @@ repo = 'Shougo/dein.vim'
 # ColorSchemes
 [[plugins]]
 repo = 'flazz/vim-colorschemes'
+hook_source = '''
+colorscheme molokai
+
+let g:rehash256 = 1
+'''
 
 
 # Display
@@ -19,6 +24,9 @@ repo = 'bronson/vim-trailing-whitespace'
 # Filer
 [[plugins]]
 repo = 'scrooloose/nerdtree'
+hook_source = '''
+map <C-n> :NERDTreeToggle<CR>
+'''
 
 
 # Utility
@@ -27,12 +35,28 @@ repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'w0rp/ale'
+hook_source = '''
+let g:ale_statusline_format = ['⨉ %d', '⚠ %d', '⬥ ok']
+
+nmap <silent> <C-w>j <Plug>(ale_next_wrap)
+nmap <silent> <C-w>k <Plug>(ale_previous_wrap)
+
+let g:ale_fixers = {}
+let g:ale_fixers['javascript'] = ['prettier']
+
+let g:ale_fix_on_save = 1
+
+let g:ale_javascript_prettier_use_local_config = 1
+'''
 
 
 # Status bar
 [[plugins]]
 repo    = 'vim-airline/vim-airline'
 depends = ['vim-airline-themes']
+hook_source = '''
+let g:airline_theme = 'molokai'
+'''
 
 [[plugins]]
 repo = 'vim-airline/vim-airline-themes'
