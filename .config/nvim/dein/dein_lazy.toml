@@ -26,3 +26,13 @@ depends = ['yajs.vim']
 [[plugins]]
 repo  = 'moll/vim-node'
 on_ft = ['javascript']
+
+
+# TypeScript
+[[plugins]]
+repo = 'HerringtonDarkholme/yats.vim'
+on_ft = ['typescript']
+
+[[plugins]]
+repo = 'mhartington/nvim-typescript'
+build = './install.sh'
