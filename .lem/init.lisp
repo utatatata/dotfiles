@@ -6,7 +6,6 @@
 (define-key *global-keymap* "Return" 'lem.language-mode:newline-and-indent)
 (setf *scroll-recenter-p* nil)
 
-
-;; Load plugin configurations
-(setf asdf:*central-registry* (cons #P"~/.lem/" asdf:*central-registry*))
-(ql:quickload :lem-my-init)
+(let ((asdf:*central-registry* (cons #P"~/.lem/" asdf:*central-registry*)))
+  (asdf:clear-source-registry)
+  (ql:quickload :lem-my-init))
