@@ -19,6 +19,8 @@ set number
 set laststatus=2
 set cmdheight=2
 set showmatch
+set matchtime=1
+set matchpairs& matchpairs+=<:>
 set helpheight=999
 set list
 set listchars=tab:▸\ ,eol:↲,extends:❯,precedes:❮
