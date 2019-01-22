@@ -1,0 +1,13 @@
+[user]
+	email = utatatata.kuma@gmail.com
+	name = utakuma
+
+[ghq]
+	root = ~/Repositories
+
+[merge]
+	ff = false
+
+[pull]
+	ff = only
+
