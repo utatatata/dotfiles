@@ -1,9 +1,10 @@
 [user]
-	email = utatatata.kuma@gmail.com
+	email = i@utakuma.info
 	name = utakuma
 
 [ghq]
 	root = ~/Repositories
+	root = ~/.roswell/local-projects
 
 [merge]
 	ff = false
