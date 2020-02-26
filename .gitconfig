@@ -1,6 +1,7 @@
 [user]
 	email = i@utakuma.info
 	name = utakuma
+	signingkey = F97AF956B231B09F
 
 [ghq]
 	root = ~/Repositories
