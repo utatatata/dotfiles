@@ -1,11 +1,6 @@
 [user]
-	email = i@utakuma.info
+	email = utatatata.kuma@gmail.com
 	name = utakuma
-	signingkey = F97AF956B231B09F
-
-[ghq]
-	root = ~/Repositories
-	root = ~/.roswell/local-projects
 
 [merge]
 	ff = false
